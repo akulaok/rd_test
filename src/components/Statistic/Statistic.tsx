@@ -1,5 +1,4 @@
 import styles from './Statistics.module.css'
-import { Checklist as checkListType } from '../../models/Checklist';
 import { useContext } from 'react';
 import { ChecklistContext } from '../../context/ChecklistContext';
 

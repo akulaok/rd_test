@@ -1,5 +1,4 @@
 import ChecklistButton from '../../components/ChecklistButton/ChecklistButton';
-import useChecklist from '../../components/hooks/useChecklist';
 import NameQuestion from '../../components/NameQuestion/NameQuestion';
 import Checklist from '../../components/Checklist/Checklist';
 import Statistic from '../../components/Statistic/Statistic';

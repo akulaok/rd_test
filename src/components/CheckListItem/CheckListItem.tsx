@@ -1,7 +1,7 @@
 import styles from '../../pages/ChecklistPage/ChecklistPage.module.css'
 import { ChecklistItem as checkListItemType } from '../../models/ChecklistItem';
 import Answer from '../Answer/Answer';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import { ChecklistContext } from '../../context/ChecklistContext';
 
 
