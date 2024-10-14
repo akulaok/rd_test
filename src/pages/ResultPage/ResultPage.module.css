@@ -1,0 +1,85 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 94px;
+}
+
+.wrapper {
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+  width: 90%;
+  min-height: 100%;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  padding: 56px 215px 56px 75px;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+}
+
+.buttonsBox {
+  display: flex;
+  gap: 24px;
+}
+
+.button {
+  height: 59px;
+  padding: 18px 21px;
+  box-sizing: border-box;
+  background-color: var(--light-gray-color);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  display: flex;
+  gap: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--hover-gray-color);
+}
+
+.button:active {
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttonImg {
+  background-image: url(../../../public/img/arrow.svg);
+  height: 14px;
+  width: 20px;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 376px) {
+  .page {
+    padding: 24px 19px;
+  }
+
+  .wrapper {
+    width: 100%;
+    gap: 0;
+    padding: 28px 21px;
+    flex-direction: column-reverse;
+  }
+
+  .buttonsBox {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .text {
+    margin-bottom: 16px;
+  }
+}

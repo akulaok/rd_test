@@ -1,0 +1,7 @@
+@import './colors.css';
+@import './fonts.css';
+
+html, body, :root {
+    margin: 0;
+    padding: 0;
+}
